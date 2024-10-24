@@ -1,0 +1,18 @@
+### 득점
+POST http://localhost:8080/score
+
+{
+}
+
+### 경기 진행
+POST http://localhost:8080/play
+Content-Type: application/json
+
+{
+}
+
+### 득점 순위
+GET http://localhost:8080/rank?date=2024-11-19
+
+### 득점 주간 순위
+GET http://localhost:8080/rank/weekly
