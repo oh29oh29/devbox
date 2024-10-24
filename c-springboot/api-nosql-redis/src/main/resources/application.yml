@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: api-redis
+
+logging:
+  level:
+    root: debug
