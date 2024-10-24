@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: api-redis
+  data:
+    redis:
+      host: localhost
+      port: 16379
+      password: myredis
+
+logging:
+  level:
+    root: debug
